@@ -96,24 +96,6 @@ Please download and compile the EVPFL tools library.
 ``` shell
 python3 main.py -h
 ```
-    ``` shell
-    usage: main.py [-h] [--algo {fedavg,sa,se,sa_basic}] [--dataset DATASET]
-                   [--model MODEL] [--wd WD] [--gpu] [--noaverage]
-                   [--device DEVICE] [--num_round NUM_ROUND]
-                   [--eval_every EVAL_EVERY]
-                   [--clients_per_round CLIENTS_PER_ROUND]
-                   [--batch_size BATCH_SIZE] [--num_epoch NUM_EPOCH] [--lr LR]
-                   [--seed SEED] [--dis DIS] [--clients_num CLIENTS_NUM]
-                   [--servers_num SERVERS_NUM]
-                   [--clients_threshold_ratios CLIENTS_THRESHOLD_RATIOS]
-                   [--dropout_ratio DROPOUT_RATIO] [--eval_client]
-                   [--eval_method EVAL_METHOD] [--nosave_pfl]
-                   [--nobuild_from_file] [--nokey_files]
-                   [--setup_data_dir SETUP_DATA_DIR] [--eval_mem]
-                   [--random_verctor] [--input_length INPUT_LENGTH]
-                   [--weight_min WEIGHT_MIN] [--weight_max WEIGHT_MAX] [--noprint]
-                   [--noprintargs]
-
     options:
       -h, --help            show this help message and exit
       --algo {fedavg,sa,se,sa_basic}
@@ -137,7 +119,6 @@ python3 main.py -h
                             number of epochs when clients train on data;
       --lr LR               learning rate for inner solver;
       --seed SEED           seed for randomness;
-      --dis DIS             add more information;
       --clients_num CLIENTS_NUM
                             number of clients;
       --servers_num SERVERS_NUM
@@ -169,7 +150,7 @@ python3 main.py -h
                             maximum weight of a client in [RV] dataset;
       --noprint             whether to print inner result (default: False)
       --noprintargs         whether to print arguments (default: False)
-    ```
+
 
 * ### test - verifiable aggregation
 ``` shell
