@@ -48,15 +48,19 @@ Our code is based on the codes:
         |-sa.py (SA Trainer Class: for verifiable aggregation test)
         |-se.py (SE Trainer Class: for secure evaluation test)
     |-utils
-|-pfl_setup_datas (public parameters and datas generated in the setup phase)
-    |-dikeys (keys of each client)
-    |-svkeys (keys of server)
-    |-diskshares (sk shares held by each client)
+        |-class_transformer.py
+        |-info_util.py
+        |-lhh_parameters.py
+        |-test_util.py
 |-tests
     |-test_se.py (basic secure evaluation test: a local update contains local gradients of LeNet5 training on a local MNIST dataset)
     |-tests_se.py (execute test_va.py multiple times: different evaluation methods and models training on different datasets)
     |-test_va.py (basic verifiable aggregation test: a local update is a random vector)
     |-tests_va.py (execute test_va.py multiple times: different lengths and numbers of aggregated inputs)
+|-pfl_setup_datas (public parameters and datas generated in the setup phase)
+    |-dikeys (keys of each client)
+    |-svkeys (keys of server)
+    |-diskshares (sk shares held by each client)
 |-result (logs)
 |-experiment_results (Experimental data in our paper)
     |-Q1
