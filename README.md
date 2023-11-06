@@ -52,17 +52,16 @@ Our code is based on the codes:
     |-dikeys (keys of each client)
     |-svkeys (keys of server)
     |-diskshares (sk shares held by each client)
-|-result (logs)
 |-tests
     |-test_se.py (basic secure evaluation test: a local update contains local gradients of LeNet5 training on a local MNIST dataset)
     |-tests_se.py (execute test_va.py multiple times: different evaluation methods and models training on different datasets)
     |-test_va.py (basic verifiable aggregation test: a local update is a random vector)
     |-tests_va.py (execute test_va.py multiple times: different lengths and numbers of aggregated inputs)
-|-Instruction_Videos
-    |-tools_compiling.mp4 (compile the tools: https://github.com/EVPFL/tools_AMD64)
-    |-tests_basic.mp4 (run the basic tests of EVPFL)
-    |-tests_100clients.mp4 (run the tests under 100 clients setup)
-
+|-result (logs)
+|-experiment_results (Experimental data in our paper)
+    |-Q1
+    |-Q2
+    |-Q3
 ```
 
 
@@ -75,14 +74,15 @@ Please download and compile the EVPFL tools library.
 * ARM64 version: https://github.com/EVPFL/tools_ARM64
 
 ###  2. Generate datasets. 
-* ### CIFAR10
-    ``` shell
-    cd Datasets/cifar10
-    python3 generate_equal.py
-    ```
 * ### MNIST
     ``` shell
     cd Datasets/mnist
+    python3 generate_equal.py
+    ```
+
+* ### CIFAR10
+    ``` shell
+    cd Datasets/cifar10
     python3 generate_equal.py
     ```
 
@@ -176,10 +176,5 @@ python3 tests/test_va.py
 ``` shell
 python3 tests/test_se.py
 ```
-
-``` shell
-python3 main.py
-```
-
 
 
