@@ -1,0 +1,192 @@
+[2023-10-20 11:52:00.784834 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 15 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:00.788730 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:00.789175 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 15 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:00.802149 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 15 finished training for round 0
+[2023-10-20 11:52:06.404540 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 45 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:06.408037 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:06.408376 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 45 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:06.420560 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 45 finished training for round 0
+[2023-10-20 11:52:11.925552 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 29 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:11.929390 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:11.929715 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 29 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:11.942185 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 29 finished training for round 0
+[2023-10-20 11:52:17.372307 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 31 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:17.375024 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:17.375144 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 31 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:17.387575 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 31 finished training for round 0
+[2023-10-20 11:52:22.725974 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 44 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:22.728185 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:22.728521 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 44 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:22.741337 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 44 finished training for round 0
+[2023-10-20 11:52:28.201008 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 8 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:28.204851 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:28.205173 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 8 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:28.217444 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 8 finished training for round 0
+[2023-10-20 11:52:33.514191 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 39 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:33.516829 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:33.516934 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 39 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:33.529102 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 39 finished training for round 0
+[2023-10-20 11:52:38.951539 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 47 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:38.953725 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:38.953836 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 47 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:38.966123 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 47 finished training for round 0
+[2023-10-20 11:52:44.319493 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 16 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:44.321736 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:44.322054 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 16 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:44.334381 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 16 finished training for round 0
+[2023-10-20 11:52:49.663630 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 33 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:49.665809 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:49.666127 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 33 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:49.678401 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 33 finished training for round 0
+[2023-10-20 11:52:55.178034 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 5 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:52:55.181930 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:52:55.182048 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 5 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:52:55.194425 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 5 finished training for round 0
+[2023-10-20 11:53:00.555524 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 21 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:00.557655 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:00.557755 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 21 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:00.570268 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 21 finished training for round 0
+[2023-10-20 11:53:05.952449 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 2 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:05.955253 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:05.955368 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 2 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:05.968022 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 2 finished training for round 0
+[2023-10-20 11:53:11.360338 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 40 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:11.362525 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:11.362643 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 40 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:11.377289 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 40 finished training for round 0
+[2023-10-20 11:53:16.769624 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 32 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:16.772480 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:16.772610 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 32 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:16.785749 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 32 finished training for round 0
+[2023-10-20 11:53:22.126254 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 46 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:22.129018 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:22.129136 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 46 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:22.141945 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 46 finished training for round 0
+[2023-10-20 11:53:27.575090 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 3 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:27.577511 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:27.577639 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 3 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:27.589821 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 3 finished training for round 0
+[2023-10-20 11:53:32.976114 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 18 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:32.978500 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:32.978608 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 18 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:32.991313 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 18 finished training for round 0
+[2023-10-20 11:53:38.528748 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 28 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:38.531433 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:38.531540 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 28 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:38.545906 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 28 finished training for round 0
+[2023-10-20 11:53:43.944890 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 13 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:43.947759 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:43.947863 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 13 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:43.960109 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 13 finished training for round 0
+[2023-10-20 11:53:49.493764 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 24 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:49.496341 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:49.496453 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 24 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:49.509584 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 24 finished training for round 0
+[2023-10-20 11:53:54.899035 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 17 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:53:54.901698 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:53:54.901832 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 17 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:53:54.914692 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 17 finished training for round 0
+[2023-10-20 11:54:00.435611 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 20 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:00.438135 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:00.438243 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 20 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:00.450597 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 20 finished training for round 0
+[2023-10-20 11:54:05.897910 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 34 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:05.900400 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:05.900510 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 34 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:05.913001 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 34 finished training for round 0
+[2023-10-20 11:54:11.249785 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 9 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:11.252258 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:11.252394 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 9 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:11.264839 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 9 finished training for round 0
+[2023-10-20 11:54:16.718692 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 23 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:16.720920 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:16.721033 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 23 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:16.733250 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 23 finished training for round 0
+[2023-10-20 11:54:22.095313 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 10 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:22.097944 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:22.098054 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 10 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:22.110548 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 10 finished training for round 0
+[2023-10-20 11:54:27.556069 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 1 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:27.558598 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:27.558964 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 1 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:27.571251 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 1 finished training for round 0
+[2023-10-20 11:54:32.976134 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 26 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:32.979036 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:32.979164 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 26 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:32.991442 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 26 finished training for round 0
+[2023-10-20 11:54:38.390673 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 4 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:38.392902 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:38.393011 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 4 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:38.405074 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 4 finished training for round 0
+[2023-10-20 11:54:43.747178 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 19 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:43.749674 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:43.749783 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 19 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:43.761923 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 19 finished training for round 0
+[2023-10-20 11:54:49.204034 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 0 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:49.208024 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:49.208361 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 0 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:49.220673 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 0 finished training for round 0
+[2023-10-20 11:54:54.482393 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 22 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:54:54.485263 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:54:54.485610 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 22 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:54:54.498121 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 22 finished training for round 0
+[2023-10-20 11:55:00.000074 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 35 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:00.004150 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:00.004335 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 35 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:00.016826 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 35 finished training for round 0
+[2023-10-20 11:55:05.399269 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 38 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:05.401530 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:05.401677 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 38 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:05.413901 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 38 finished training for round 0
+[2023-10-20 11:55:10.776084 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 25 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:10.778276 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:10.778609 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 25 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:10.791069 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 25 finished training for round 0
+[2023-10-20 11:55:16.128019 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 43 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:16.130877 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:16.131012 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 43 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:16.144401 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 43 finished training for round 0
+[2023-10-20 11:55:21.586787 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 42 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:21.589293 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:21.589419 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 42 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:21.601981 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 42 finished training for round 0
+[2023-10-20 11:55:27.072065 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 37 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:27.074290 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:27.074417 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 37 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:27.086586 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 37 finished training for round 0
+[2023-10-20 11:55:32.561108 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 7 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:32.563308 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:32.563631 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 7 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:32.575830 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 7 finished training for round 0
+[2023-10-20 11:55:38.049304 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 30 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:38.052516 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:38.052943 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 30 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:38.066603 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 30 finished training for round 0
+[2023-10-20 11:55:43.398037 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 36 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:43.400550 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:43.400916 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 36 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:43.413352 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 36 finished training for round 0
+[2023-10-20 11:55:48.855112 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 12 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:48.858208 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:48.858591 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 12 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:48.871529 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 12 finished training for round 0
+[2023-10-20 11:55:54.248735 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 11 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:54.251199 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:54.251307 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 11 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:54.263733 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 11 finished training for round 0
+[2023-10-20 11:55:59.654360 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 14 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:55:59.656760 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:55:59.657072 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 14 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:55:59.669571 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 14 finished training for round 0
+[2023-10-20 11:56:05.094460 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 41 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:56:05.096971 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:56:05.097086 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 41 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:56:05.109315 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 41 finished training for round 0
+[2023-10-20 11:56:10.625914 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 27 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:56:10.628256 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:56:10.628366 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 27 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:56:10.641179 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 27 finished training for round 0
+[2023-10-20 11:56:15.999005 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 6 ENC_PARAMS for round 0, enc_type: 1
+[2023-10-20 11:56:16.001354 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 11:56:16.001490 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 6 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 11:56:16.013990 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 6 finished training for round 0

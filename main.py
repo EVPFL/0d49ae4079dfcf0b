@@ -220,7 +220,6 @@ def printArgs(options):
 
 def main():
     # Parse command line arguments
-    # options, trainer_class, dataset_name, sub_data = read_options()
     options = read_options()
     options, trainer_class, dataset_name, sub_data = set_options(options)
     printArgs(options)

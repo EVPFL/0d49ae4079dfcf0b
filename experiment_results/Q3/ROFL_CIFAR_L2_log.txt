@@ -1,0 +1,17 @@
+[2023-10-20 09:23:39.993265 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 38 ENC_PARAMS for round 0, enc_type: 5
+[2023-10-20 09:23:39.997676 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 09:23:45.838331 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 42 ENC_PARAMS for round 0, enc_type: 5
+[2023-10-20 09:23:45.842331 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 09:23:51.579817 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 4 ENC_PARAMS for round 0, enc_type: 5
+[2023-10-20 09:23:51.583734 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 09:23:57.211281 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 27 ENC_PARAMS for round 0, enc_type: 5
+[2023-10-20 09:23:57.215282 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 09:24:02.841558 +00:00] INFO [rofl_service/src/flserver/client.rs:268] !!! Client 12 ENC_PARAMS for round 0, enc_type: 5
+[2023-10-20 09:24:02.845751 +00:00] INFO [rofl_service/src/flserver/client.rs:138] !!!params.content.len(): 62006
+[2023-10-20 09:34:57.038824 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 42 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 09:35:11.192717 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 42 finished training for round 0
+[2023-10-20 09:35:52.190672 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 12 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 09:35:52.222057 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 38 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 09:35:52.261328 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 4 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 09:35:52.261954 +00:00] INFO [rofl_service/src/flserver/client.rs:274] !!! Client 27 ENC_PARAMS for round 0, DONE!!
+[2023-10-20 09:36:04.377830 +00:00] INFO [rofl_service/src/flserver/client.rs:288] Client 38 finished training for round 0
