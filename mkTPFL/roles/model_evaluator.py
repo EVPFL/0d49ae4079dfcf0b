@@ -3,6 +3,7 @@ import torch
 import random
 from tqdm import tqdm
 
+from mkTPFL.ckks.ckks_parameters import *
 from mkTPFL.ckks.ckks_encoder import CKKSMessage
 from mkTPFL.ckks.ckks_evaluator import CKKSEvaluator
 from mkTPFL.ckks.ckks_encryptor import CKKSEncryptor
@@ -87,30 +88,36 @@ class EncModelEvaluator():
         ''' offline '''
         n, logp, logq = self.ckks_params.n, self.ckks_params.logp, self.ckks_params.logq
         eval_method = eval_method if eval_method else self.eval_method
+        p = int(ring.qpows[logp])
+        soln_scaling = int(1 / float(str(self.scaling[0])))
 
-        logp *= 8
-        # if eval_method in ['l2', 'ln', 'cos']: 
-        #     logp *= 8
-        # elif eval_method == 'zeno':
-        #     logp *= 6
-        # else:
-        #     raise ValueError("Not support evaluation method: {}!".format(eval_method))
-
-        r1 = random.randint(1,100)
-        r2 = [ random.randint(1,100) for _ in range(self.ckks_params.slots) ]
+        if eval_method in ['l2', 'ln', 'cos', 'zeno']: 
+            logp *= 4
+        else:
+            raise ValueError("Not support evaluation method: {}!".format(eval_method))
+            
+        r1 = random.randint(1, p-1)
+        r2 = [ random.randint(1, soln_scaling) for _ in range(self.ckks_params.slots) ]
+        r3 = [ random.randint(1, soln_scaling) for _ in range(self.ckks_params.slots) ]
         msg_r2 = CKKSMessage(slots=self.ckks_params.slots, mlist=r2)
+        msg_r3 = CKKSMessage(slots=self.ckks_params.slots, mlist=r3)
         encryptor = CKKSEncryptor(self.ckks_params, self.pk)
         ciph_r2 = encryptor.encrypt(msg_r2, n=n, logp=logp, logq=logq)
+        ciph_r3 = encryptor.encrypt(msg_r3, n=n, logp=logp*2, logq=logq)
         
-        return r1, r2, ciph_r2
+        return r1, r2, r3, ciph_r2, ciph_r3
+
 
     def mask(self, ciph_eva, mask_data):
         ''' online '''
+        r1, _, _, ciph_r2, ciph_r3 = mask_data
         # assert ciph_r2.n == ciph_eva.n and ciph_r2.logp == ciph_eva.logp and ciph_r2.logq == ciph_eva.logq
-        r1, r2, ciph_r2 = mask_data
-        self.evaluator.multByConstAndEqual(ciph_eva, Double(r1), ciph_eva.logp)
         self.evaluator.addAndEqual(ciph_r2, ciph_eva)
+        self.evaluator.multByConstAndEqual(ciph_r2, Double(r1), ciph_r2.logp)
+        # assert ciph_r2.n == ciph_r3.n and ciph_r2.logp == ciph_r3.logp and ciph_r2.logq == ciph_r3.logq
+        self.evaluator.addAndEqual(ciph_r2, ciph_r3)
         return ciph_r2
+
 
     def unmask(self, sum_mask_eval, mask_data, eval_method=None, eval_data=None):
         ''' online '''
@@ -120,9 +127,12 @@ class EncModelEvaluator():
     
 def unmask(sum_mask_eval, mask_data, eval_method='l2', eval_data=None):
     ''' online '''
-    r1, r2, ciph_r2 = mask_data
-    eval_res = sum_mask_eval - sum(r2)
+    r1, r2, r3, _, _ = mask_data
+    # eval_res = sum_mask_eval - sum(r2)
+    # eval_res /= r1
+    eval_res = sum_mask_eval - sum(r3)
     eval_res /= r1
+    eval_res -= sum(r2)
     if eval_method == 'l2' or eval_method == 'ln': 
         return pow(eval_res, 0.5)
     elif eval_method == 'zeno': 
