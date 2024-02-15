@@ -104,7 +104,6 @@ class EncModelEvaluator():
         encryptor = CKKSEncryptor(self.ckks_params, self.pk)
         ciph_r2 = encryptor.encrypt(msg_r2, n=n, logp=logp, logq=logq)
         ciph_r3 = encryptor.encrypt(msg_r3, n=n, logp=logp*2, logq=logq)
-        
         return r1, r2, r3, ciph_r2, ciph_r3
 
 
